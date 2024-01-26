@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+header{
+    background-color: rgb(51, 1, 92);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header h1{
+    font-family: 'Fuggles', cursive;
+    font-size: 46px;
+    color: rgb(237, 248, 116);
+}
+a{
+    text-decoration: none;
+    color: #debdfa;
+}
+header ul li{
+    margin: 10px;
+}
+img{
+    width: 80px;
+}
+h1{
+    font-size: 46;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(26, 2, 64);
+}
+h2{
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3f0072;
+}
+p{
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Contenedor{
+    display: flex;
+    background-color: #b691d4;
+    width: 100%;
+    margin: 15px 0 15px 0;
+
+}
+.box{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+    width: 200px;
+border-radius: 50%;
+}
+#aboutus{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+#aboutus iframe{
+    padding: 10px;
+    margin: 10px;
+}
